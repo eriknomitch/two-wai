@@ -55,5 +55,5 @@ gr.Interface(
 ).launch(
     # enable_queue=True,
     debug=True,
-    listen=True
+    share=True
   )
