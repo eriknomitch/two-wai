@@ -54,5 +54,6 @@ gr.Interface(
     description=description,
 ).launch(
     # enable_queue=True,
-    debug=True
+    debug=True,
+    listen=True
   )
